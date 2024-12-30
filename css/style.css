@@ -30,11 +30,11 @@ a{
 }
 
 #intro{
-    padding: 40px;
+    padding: 0px;
 }
 
 .intro h1{
-    font-size: 3rem;
+    font-size: calc(2vw + .7em);
     color: white;
     position: absolute;
     top: 26%;
@@ -43,7 +43,7 @@ a{
 }
 
 .intro p{
-    font-size: 3rem;
+    font-size: calc(1.2vw + .7em);
     color: white;
     position: absolute;
     top: 46%;
@@ -165,6 +165,10 @@ a{
     border-radius: 15px;
     padding: 5px;
     background-color: rgb(182, 206, 242);
+}
+
+.reseña p{
+    font-size: calc(1vw + .3em);
 }
 
 #inscripcion{
