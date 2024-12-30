@@ -1,0 +1,191 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-image: linear-gradient(to right, rgb(119, 148, 235), rgb(0, 74, 194));
+}
+
+header {
+    padding: 20px;
+    padding-right: 1000px;
+    padding-left: 20px;
+    display: flex;
+    background-color:rgb(65, 142, 197);
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+#intro{
+    padding: 40px;
+}
+
+.intro h1{
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+    top: 26%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+}
+
+.intro p{
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+    top: 46%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.intro img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.5);
+}
+
+
+
+#cursos {
+    padding: 40px;
+}
+
+.cursos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.curso {
+    width: 350px;
+    height: 230px;
+    /*box-shadow: 5px 8px 12px black;
+    overflow: hidden;
+    position: relative;*/
+    margin: 40px;
+    /*ursor: pointer;
+    transition: all 0.3s ease-in-out;*/
+    margin-bottom: 200px;
+}
+/*
+.curso:hover {
+    transform: scale(1.1);
+    box-shadow: 15;
+}
+*/
+
+.boton-agregar-carrito{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(177, 112, 237);
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.curso img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    box-shadow: 5px 8px 12px black;
+}
+
+#carrito{
+    padding-left: 100px;
+}
+
+.boton-borrar{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(177, 112, 237);
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.boton-pagar{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(177, 112, 237);
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*.curso p{
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+*/
+#online {
+    padding: 40px;
+}
+
+.online{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    padding-left: 100px;
+}
+
+#reseña{
+    padding: 20px;
+}
+
+.reseñas{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 20rem 20rem;
+    gap: 1rem;
+    margin-top: 1rem;
+    height: 30rem;
+}
+
+.reseña{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: rgb(182, 206, 242);
+}
+
+#inscripcion{
+    padding: 100px
+}
+
+.enviar-datos{
+    background-color: rgb(177, 112, 237);
+    border-radius: 15px;
+}
+
+footer{
+    padding: 50px;
+    display: flex;
+    background-color:rgb(137, 190, 227);
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    font-weight: bold;
+}
+
