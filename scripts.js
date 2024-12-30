@@ -1,32 +1,32 @@
 const cursos = [
     {
         nombre: "Guitarra",
-        imagen: "img/guitarra.JPG",
+        imagen: "img/guitarra.jpg",
         precio: 2200
     },
     {
         nombre: "Saxofon",
-        imagen: "img/saxofon.JPG",
+        imagen: "img/saxofon.jpg",
         precio: 3000
     },
     {
         nombre: "Violin",
-        imagen: "img/violin.JPG",
+        imagen: "img/violin.jpg",
         precio: 2800
     },
     {
         nombre: "Bateria",
-        imagen: "img/bateria.JPG",
+        imagen: "img/bateria.jpg",
         precio: 3200
     },
     {
         nombre: "Canto",
-        imagen: "img/canto.JPG",
+        imagen: "img/canto.jpg",
         precio: 3400
     },
     {
         nombre: "Piano",
-        imagen: "img/piano.JPG",
+        imagen: "img/piano.jpg",
         precio: 3000
     }
 ]
